@@ -1,7 +1,7 @@
 import openai  # Import OpenAI API
 from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHandler  # Imports libraries for handling HTTP requests
 
-openai.api_key = "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"  # Personal OpenAI product key
+openai.api_key = ""  # Personal OpenAI product key
 openAIModelVersion = "gpt-3.5-turbo"  # GPT Version to use
 messageHistory = []  # Global table to keep track of the message history between the user and the system
 
