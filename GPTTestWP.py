@@ -17,7 +17,7 @@ class myRequestHandler(BaseHTTPRequestHandler):
 # Function that runs the HTTP server on the specified port
 
 def run(server_class=HTTPServer, handler_class=myRequestHandler):
-    server_address = ('', 8000)                 # Will run the server on port 3500
+    server_address = ('', 8000)                 # Will run the server on port 8000
     httpd = server_class(server_address, handler_class)     # Creates an instance of a HTTP server
     httpd.serve_forever()       # Starts the HTTP server
 
